@@ -1,0 +1,28 @@
+.user-info-panel {
+  border-left: 1px solid #dee2e6;
+  height: 100%;
+  background: #fff;
+  min-width: 220px;
+  max-width: 300px;
+  overflow-y: auto;
+  padding-bottom: 2rem;
+}
+
+/* Optional: Better appearance for tags */
+.user-info-panel .badge {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+/* Dark theme support */
+body.dark-theme .user-info-panel {
+  background: #232323;
+  color: #f1f1f1;
+  border-left: 1px solid #444;
+}
+
+body.dark-theme .user-info-panel .badge {
+  background: #00bfff;
+  color: #fff;
+}

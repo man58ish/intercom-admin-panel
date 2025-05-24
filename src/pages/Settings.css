@@ -1,0 +1,46 @@
+.settings-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem 2rem 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.settings-form .form-label {
+  font-weight: 500;
+}
+
+.settings-form .form-control,
+.settings-form .form-select {
+  border-radius: 6px;
+  min-height: 42px;
+}
+
+.settings-form .btn-primary {
+  min-width: 140px;
+}
+
+/* Success message */
+.settings-form .alert-success {
+  margin-top: 1rem;
+}
+
+/* Dark theme support */
+body.dark-theme .settings-form {
+  background: #232323;
+  color: #f1f1f1;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+body.dark-theme .settings-form .form-control,
+body.dark-theme .settings-form .form-select {
+  background: #2c2c2c;
+  color: #f1f1f1;
+  border-color: #444;
+}
+
+body.dark-theme .settings-form .btn-primary {
+  background: #00bfff;
+  border-color: #00bfff;
+}

@@ -1,0 +1,110 @@
+/* === Base Layout === */
+.chat-container {
+  display: flex;
+  height: calc(100vh - 60px); /* adjust for Topbar height */
+  background-color: #f8f9fa;
+}
+
+.chat-customers,
+.chat-info {
+  width: 250px;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+}
+
+.chat-messages {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Chat Bubble Styles === */
+.chat-bubble {
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  max-width: 70%;
+  font-size: 14px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.chat-bubble.user {
+  background-color: #d1e7dd;
+  margin-left: auto;
+  color: #000;
+}
+
+.chat-bubble.other {
+  background-color: #f8d7da;
+  margin-right: auto;
+  color: #000;
+}
+
+.timestamp {
+  display: block;
+  font-size: 10px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* === Input Bar === */
+.chat-input input {
+  height: 40px;
+}
+
+/* === Dark Theme Compatibility === */
+body.dark-theme .chat-container,
+body.dark-theme .chat-customers,
+body.dark-theme .chat-info {
+  background-color: #1c1c1c !important;
+  color: #f1f1f1 !important;
+}
+
+body.dark-theme .chat-messages {
+  background-color: #121212 !important;
+}
+
+body.dark-theme .chat-bubble.user {
+  background-color: #005f73;
+  color: white;
+}
+
+body.dark-theme .chat-bubble.other {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-theme .form-control {
+  background-color: #2c2c2c;
+  color: white;
+  border-color: #444;
+}
+
+body.dark-theme .btn-primary {
+  background-color: #00bfff;
+  border-color: #00bfff;
+}
+
+body.dark-theme .tags .badge {
+  opacity: 0.9;
+}
+
+/* === Responsive Support === */
+@media (max-width: 768px) {
+  .chat-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .chat-customers,
+  .chat-info {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .chat-messages {
+    min-height: 300px;
+  }
+}

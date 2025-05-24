@@ -1,0 +1,29 @@
+.chat-list {
+  max-height: 100vh;
+  overflow-y: auto;
+  border-right: 1px solid #dee2e6;
+  background-color: #fff;
+}
+
+.chat-item {
+  cursor: pointer;
+  transition: background-color 0.2s;
+  outline: none;
+}
+
+.chat-item:hover,
+.chat-item:focus {
+  background-color: #f1f1f1;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* Optional: Improve accessibility for keyboard navigation */
+.chat-item:focus {
+  box-shadow: 0 0 0 2px #007bff33;
+}

@@ -1,0 +1,19 @@
+.main-content {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  width: 220px;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+/* Dark theme support */
+body.dark-theme .main-content {
+  background-color: #181a1b;
+}
