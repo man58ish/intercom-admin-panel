@@ -4,7 +4,7 @@ A modern React-based admin panel inspired by Intercom, featuring real-time chat,
 
 ## 🚀 Live Demo
 
-[View the live app on Netlify](https://your-live-link.netlify.app/) <!-- Replace with your actual Netlify/Vercel link -->
+[View the live app on Netlify](https://delicate-nasturtium-1e30c8.netlify.app/) <!-- Replace with your actual Netlify/Vercel link -->
 
 ## Features
 
@@ -44,7 +44,7 @@ A modern React-based admin panel inspired by Intercom, featuring real-time chat,
 
 ## Deployment
 
-You can deploy this app easily to [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/).
+You can deploy this app easily to [Netlify](https://www.netlify.com/) .
 
 ## License
 
@@ -53,7 +53,7 @@ MIT
 ---
 
 **Live Demo:**  
-[https://your-live-link.netlify.app/](https://your-live-link.netlify.app/) <!-- Replace with your actual Netlify/Vercel link -->
+[https://your-live-link.netlify.app/](https://delicate-nasturtium-1e30c8.netlify.app/) <!-- Replace with your actual Netlify/Vercel link -->
 
 **Author:**  
-[Your Name](https://github.com/your-username)
+[Your Name](https://github.com/man58ish)
