@@ -61,4 +61,4 @@ mail: admin@example.com
 password: 123456<!-- Replace with your actual Netlify/Vercel link -->
 
 **Author:**  
-[Your Name](https://github.com/man58ish)
+[Manish Anuragi](https://github.com/man58ish)
