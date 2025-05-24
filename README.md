@@ -5,7 +5,9 @@ A modern React-based admin panel inspired by Intercom, featuring real-time chat,
 ## 🚀 Live Demo
 
 [View the live app on Netlify](https://delicate-nasturtium-1e30c8.netlify.app/) <!-- Replace with your actual Netlify/Vercel link -->
-
+for access the app 
+mail: admin@example.com
+password: 123456
 ## Features
 
 - Customer chat with dynamic switching
@@ -53,7 +55,10 @@ MIT
 ---
 
 **Live Demo:**  
-[https://your-live-link.netlify.app/](https://delicate-nasturtium-1e30c8.netlify.app/) <!-- Replace with your actual Netlify/Vercel link -->
+[https://your-live-link.netlify.app/](https://delicate-nasturtium-1e30c8.netlify.app/)
+
+mail: admin@example.com
+password: 123456<!-- Replace with your actual Netlify/Vercel link -->
 
 **Author:**  
 [Your Name](https://github.com/man58ish)
